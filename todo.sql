@@ -1,0 +1,6 @@
+CREATE TABLE customers (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  business VARCHAR(100) NULL,
+  tier INTEGER NOT NULL DEFAULT 1
+  );
